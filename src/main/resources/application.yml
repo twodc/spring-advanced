@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/advanced
+    username: root
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+
+jwt:
+  secret:
+    key: "64K07J2867Cw7JuA7Lqg7ZSEMTDsobDribTsiqTtlLzrk5ztlITroZzsoJ3tirg"
